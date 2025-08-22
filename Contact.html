@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jscript.js" defer></script>
+  <style>
+    input { margin: 5px 0; padding: 8px; width: 250px; }
+    .error { color: red; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+  <form id="emailForm">
+
+    <label for="First Name">Enter Your First Name:<br></label>
+    <input type="text" id="name" required><br>
+
+    <label for="Last Name">Enter Your Last Name:<br></label>
+    <input type="text" id="name" required>
+
+    <label for="email"><br>Email:</label><br>
+    <input type="email" id="email" required><br>
+
+    <label for="confirmEmail">Confirm Email:</label><br>
+    <input type="email" id="confirmEmail" required><br>
+
+     <label for="message">Leave a Message:<br></label>
+    <textarea id="message" required></textarea>
+
+    <p id="errorMessage" class="error"></p>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
