@@ -10,7 +10,7 @@
     .error { color: red; font-size: 14px; }
   </style>
 </head>
-
+  <header><h1>Contact US</h1></header>
 <body class="city-page">
 
   <nav class="navbar">
@@ -27,27 +27,24 @@
         <a class="references" href="References.html">References</a>
     </nav>
     
+  <section>
+    <form id="emailForm">
+      <label for="First Name">Enter Your First Name:<br></label>
+      <input type="text" id="name" required><br>
+      <label for="Last Name">Enter Your Last Name:<br></label>
+      <input type="text" id="name" required>
+      <label for="email"><br>Email:</label><br>
+      <input type="email" id="email" required><br>
+      <label for="confirmEmail">Confirm Email:</label><br>
+      <input type="email" id="confirmEmail" required><br>
+      <label for="message">Leave a Message:<br></label>
+      <textarea id="message" required></textarea>
+      <p id="errorMessage" class="error"></p>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </section><br>
 
-  <form id="emailForm">
-
-    <label for="First Name">Enter Your First Name:<br></label>
-    <input type="text" id="name" required><br>
-
-    <label for="Last Name">Enter Your Last Name:<br></label>
-    <input type="text" id="name" required>
-
-    <label for="email"><br>Email:</label><br>
-    <input type="email" id="email" required><br>
-
-    <label for="confirmEmail">Confirm Email:</label><br>
-    <input type="email" id="confirmEmail" required><br>
-
-     <label for="message">Leave a Message:<br></label>
-    <textarea id="message" required></textarea>
-
-    <p id="errorMessage" class="error"></p>
-    <br>
-    <button type="submit">Submit</button>
-  </form>
+  <aside>Expect a reponse within 24 hours</aside>
 </body>
 </html>
